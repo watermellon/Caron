@@ -24,10 +24,11 @@ open class Walkthrough: BWWalkthroughViewControllerDelegate {
         let stb = UIStoryboard(name: "Main", bundle: nil)
         walkthrough = stb.instantiateViewController(withIdentifier: "container") as! BWWalkthroughViewController
         let page_one = stb.instantiateViewController(withIdentifier: "page_1")
-        //let page_two = stb.instantiateViewController(withIdentifier: "page_2")
-        //let page_three = stb.instantiateViewController(withIdentifier: "page_3")
-        //let page_four = stb.instantiateViewController(withIdentifier: "page_4")
-        //let page_five = stb.instantiateViewController(withIdentifier: "page_5")
+        let page_two = stb.instantiateViewController(withIdentifier: "page_2")
+        let page_three = stb.instantiateViewController(withIdentifier: "page_3")
+        let page_four = stb.instantiateViewController(withIdentifier: "page_4")
+        let page_five = stb.instantiateViewController(withIdentifier: "page_5")
+        let page_six = stb.instantiateViewController(withIdentifier: "page_6")
         
         //add background image
         //if added programatically, image does not fade in/out
@@ -36,20 +37,21 @@ open class Walkthrough: BWWalkthroughViewControllerDelegate {
         let bgImage: UIImage = UIGraphicsGetImageFromCurrentImageContext()!
         UIGraphicsEndImageContext()
         page_one.view.backgroundColor = UIColor(patternImage: bgImage)
-        //page_two.view.backgroundColor = UIColor(patternImage: #imageLiteral(resourceName: "walkthrough_bg"))
-        //page_three.view.backgroundColor = UIColor(patternImage: #imageLiteral(resourceName: "walkthrough_bg"))
-        //page_four.view.backgroundColor = UIColor(patternImage: #imageLiteral(resourceName: "walkthrough_bg"))
-        //page_five.view.backgroundColor = UIColor(patternImage: #imageLiteral(resourceName: "walkthrough_bg"))
-        
+        page_two.view.backgroundColor = UIColor(patternImage: bgImage)
+        page_three.view.backgroundColor = UIColor(patternImage: bgImage)
+        page_four.view.backgroundColor = UIColor(patternImage: bgImage)
+        page_five.view.backgroundColor = UIColor(patternImage: bgImage)
+        page_six.view.backgroundColor = UIColor(patternImage: bgImage)
         
         // Attach the pages to the master
         walkthrough.delegate = VCDelegate
         walkthrough.add(viewController:page_one)
-        //walkthrough.add(viewController:page_two)
-        //walkthrough.add(viewController:page_three)
-        //walkthrough.add(viewController:page_four)
-        //walkthrough.add(viewController:page_five)
-        
+        walkthrough.add(viewController:page_two)
+        walkthrough.add(viewController:page_three)
+        walkthrough.add(viewController:page_four)
+        walkthrough.add(viewController:page_five)
+        walkthrough.add(viewController:page_six)
+
         VC.present(walkthrough, animated: true, completion: nil)
     }
     //walkthrough delegate functions not working so i changed functions in library BWWalkthroughViewController

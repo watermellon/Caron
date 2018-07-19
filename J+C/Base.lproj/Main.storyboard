@@ -7,14 +7,10 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
-        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="GOTHAM-BOLD_0.otf">
-            <string>Gotham-Bold</string>
-        </array>
         <array key="GOTHAM-LIGHT.ttf">
             <string>GothamLight</string>
         </array>
@@ -170,31 +166,31 @@
                                 </userDefinedRuntimeAttributes>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To celebrate our anniversary," textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mRy-cn-d2A">
-                                <rect key="frame" x="79" y="543" width="218" height="20"/>
+                                <rect key="frame" x="66" y="543" width="244" height="15.5"/>
                                 <fontDescription key="fontDescription" name="GothamLight" family="Gotham Light" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I've made a little couple's quiz to test" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q10-ie-Ouy">
-                                <rect key="frame" x="46.5" y="564" width="282.5" height="20"/>
+                                <rect key="frame" x="32.5" y="559.5" width="311" height="15.5"/>
                                 <fontDescription key="fontDescription" name="GothamLight" family="Gotham Light" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="how well you know our relationship" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MRZ-rK-KDj">
-                                <rect key="frame" x="54.5" y="585" width="266.5" height="20"/>
+                                <rect key="frame" x="39.5" y="576" width="297" height="15.5"/>
                                 <fontDescription key="fontDescription" name="GothamLight" family="Gotham Light" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="and have a little good and loving fun :)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B4i-LS-EYp">
-                                <rect key="frame" x="43" y="606" width="289.5" height="20"/>
+                                <rect key="frame" x="26" y="592.5" width="323.5" height="15.5"/>
                                 <fontDescription key="fontDescription" name="GothamLight" family="Gotham Light" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hints: (Off)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dNr-mN-xFJ">
-                                <rect key="frame" x="102.5" y="629" width="80.5" height="20"/>
+                                <rect key="frame" x="89.5" y="633.5" width="93.5" height="15.5"/>
                                 <fontDescription key="fontDescription" name="GothamLight" family="Gotham Light" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -237,7 +233,7 @@
                         <barButtonItem key="rightBarButtonItem" title="Start" id="uEw-Bd-rzG">
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
-                                <segue destination="BYZ-38-t0r" kind="show" id="tMc-Va-IFJ"/>
+                                <segue destination="BYZ-38-t0r" kind="show" id="MDb-pO-q97"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -249,42 +245,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="szY-Xt-5wa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="0.80000000000000004" y="125.4872563718141"/>
-        </scene>
-        <!--Happy Anniversary!-->
-        <scene sceneID="hBm-79-w0K">
-            <objects>
-                <viewController id="41h-LZ-ESJ" customClass="ViewController" customModule="J_C" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleAspectFill" id="8ae-lN-diG">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tiger" translatesAutoresizingMaskIntoConstraints="NO" id="oXj-L8-mjm">
-                                <rect key="frame" x="0.0" y="20" width="187.5" height="647"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dog" translatesAutoresizingMaskIntoConstraints="NO" id="SHR-eD-TZK">
-                                <rect key="frame" x="187.5" y="20" width="187.5" height="647"/>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="oXj-L8-mjm" firstAttribute="top" secondItem="xXW-Ua-Aqz" secondAttribute="top" id="1oO-yI-ftR"/>
-                            <constraint firstItem="oXj-L8-mjm" firstAttribute="leading" secondItem="xXW-Ua-Aqz" secondAttribute="leading" id="1y3-gR-Ivk"/>
-                            <constraint firstItem="SHR-eD-TZK" firstAttribute="trailing" secondItem="xXW-Ua-Aqz" secondAttribute="trailing" id="4ed-d9-tR9"/>
-                            <constraint firstItem="SHR-eD-TZK" firstAttribute="top" secondItem="xXW-Ua-Aqz" secondAttribute="top" id="GeA-1z-Rsx"/>
-                            <constraint firstItem="oXj-L8-mjm" firstAttribute="height" secondItem="xXW-Ua-Aqz" secondAttribute="height" id="YTN-fQ-ReJ"/>
-                            <constraint firstItem="SHR-eD-TZK" firstAttribute="width" secondItem="xXW-Ua-Aqz" secondAttribute="width" multiplier="0.5" id="dls-Pc-mpZ"/>
-                            <constraint firstItem="oXj-L8-mjm" firstAttribute="width" secondItem="xXW-Ua-Aqz" secondAttribute="width" multiplier="0.5" id="t1Q-2O-zE9"/>
-                            <constraint firstItem="SHR-eD-TZK" firstAttribute="height" secondItem="xXW-Ua-Aqz" secondAttribute="height" id="tUJ-pW-AL3"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="xXW-Ua-Aqz"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Happy Anniversary!" id="q1Y-5Y-r6E">
-                        <barButtonItem key="rightBarButtonItem" title="Start" id="XvQ-yX-xLj"/>
-                    </navigationItem>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="6UV-jZ-s3n" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1809" y="125"/>
         </scene>
         <!--Walkthrough Page View Controller-->
         <scene sceneID="E4c-QQ-F9A">
@@ -298,7 +258,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="baseball" translatesAutoresizingMaskIntoConstraints="NO" id="vOf-IV-Dqz">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cfw" translatesAutoresizingMaskIntoConstraints="NO" id="vOf-IV-Dqz">
                                 <rect key="frame" x="20" y="25" width="335" height="335"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="vOf-IV-Dqz" secondAttribute="height" multiplier="1:1" id="myM-15-TKr"/>
@@ -309,44 +269,73 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="populate. Click on a card to view" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OJv-Jt-m5U">
-                                <rect key="frame" x="63" y="515.5" width="249.5" height="20"/>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The start of our relationship 💖" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OJv-Jt-m5U">
+                                <rect key="frame" x="16" y="433" width="267" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="GothamMedium" family="Gotham Medium" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" tag="4" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DASHBOARD" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m2b-ML-wAj">
-                                <rect key="frame" x="107" y="430.5" width="161.5" height="30.5"/>
-                                <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="26"/>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="4" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Apr 20 - Jul 20, 2017" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m2b-ML-wAj">
+                                <rect key="frame" x="18" y="374" width="340" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="340" id="kdq-a0-lYf"/>
+                                    <constraint firstAttribute="height" constant="55" id="oEy-5G-noj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="19"/>
                                 <color key="textColor" red="0.84465640779999995" green="0.51457053419999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is where your events will" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ElM-CD-hF2">
-                                <rect key="frame" x="77.5" y="493.5" width="221" height="20"/>
-                                <fontDescription key="fontDescription" name="GothamMedium" family="Gotham Medium" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="We went to CFW and Chicago together" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ElM-CD-hF2">
+                                <rect key="frame" x="16" y="458" width="343" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GothamLight" family="Gotham Light" pointSize="15"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" tag="5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="more details from that day." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s1M-IC-tzm">
-                                <rect key="frame" x="86.5" y="537.5" width="203" height="20"/>
-                                <fontDescription key="fontDescription" name="GothamMedium" family="Gotham Medium" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="where you tried on some interesting outfits ;)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s1M-IC-tzm">
+                                <rect key="frame" x="16" y="480" width="335" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GothamLight" family="Gotham Light" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="8" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You were in Georgia from May to July, but" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rQu-wr-Gox">
+                                <rect key="frame" x="16" y="502" width="340" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GothamLight" family="Gotham Light" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="7" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="we were still able to talk everyday and I found a" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AH7-Hj-Ntd">
+                                <rect key="frame" x="16" y="524" width="354" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GothamLight" family="Gotham Light" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="9" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Oh yeah, and we went to a car show in AA :P" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TMn-El-T63">
+                                <rect key="frame" x="16" y="568" width="334" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GothamLight" family="Gotham Light" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="6" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="chance to visit you and get to know you better!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VfX-d5-8LS">
+                                <rect key="frame" x="16" y="546" width="352" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GothamLight" family="Gotham Light" pointSize="15"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="0Ju-aX-ZZl" firstAttribute="top" secondItem="OJv-Jt-m5U" secondAttribute="bottom" constant="132" id="4St-2g-KtM"/>
-                            <constraint firstItem="0Ju-aX-ZZl" firstAttribute="top" secondItem="s1M-IC-tzm" secondAttribute="bottom" constant="109" id="BPs-7t-i5L"/>
                             <constraint firstAttribute="trailing" secondItem="vOf-IV-Dqz" secondAttribute="trailing" constant="20" id="J7M-Ze-IkI"/>
-                            <constraint firstItem="0Ju-aX-ZZl" firstAttribute="top" secondItem="m2b-ML-wAj" secondAttribute="bottom" constant="206" id="KDs-Kg-M1A"/>
+                            <constraint firstItem="0Ju-aX-ZZl" firstAttribute="top" secondItem="m2b-ML-wAj" secondAttribute="bottom" constant="238" id="KDs-Kg-M1A"/>
                             <constraint firstItem="m2b-ML-wAj" firstAttribute="centerX" secondItem="p20-C3-tbj" secondAttribute="centerX" id="KVR-qW-pEu"/>
                             <constraint firstItem="vOf-IV-Dqz" firstAttribute="top" secondItem="p20-C3-tbj" secondAttribute="top" constant="25" id="Oje-ne-Nfb"/>
                             <constraint firstItem="vOf-IV-Dqz" firstAttribute="leading" secondItem="p20-C3-tbj" secondAttribute="leading" constant="20" id="WkR-vE-4WX"/>
-                            <constraint firstItem="0Ju-aX-ZZl" firstAttribute="top" secondItem="ElM-CD-hF2" secondAttribute="bottom" constant="154" id="XTy-np-Zc5"/>
-                            <constraint firstItem="ElM-CD-hF2" firstAttribute="centerX" secondItem="p20-C3-tbj" secondAttribute="centerX" id="dgt-7c-5e9"/>
-                            <constraint firstItem="OJv-Jt-m5U" firstAttribute="centerX" secondItem="p20-C3-tbj" secondAttribute="centerX" id="r9n-wU-iUn"/>
-                            <constraint firstItem="s1M-IC-tzm" firstAttribute="centerX" secondItem="p20-C3-tbj" secondAttribute="centerX" id="wVP-aA-qJm"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="5Eg-jF-pD4"/>
                         <userDefinedRuntimeAttributes>
@@ -366,14 +355,573 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rwN-r5-Whj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-321" y="796"/>
+            <point key="canvasLocation" x="-326" y="796"/>
+        </scene>
+        <!--Walkthrough Page View Controller-->
+        <scene sceneID="juD-WT-c4o">
+            <objects>
+                <viewController storyboardIdentifier="page_2" id="3F0-Ow-rIU" customClass="BWWalkthroughPageViewController" customModule="J_C" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pMR-0I-TlR"/>
+                        <viewControllerLayoutGuide type="bottom" id="or3-a9-FJk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="77s-vg-eaV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kayak1" translatesAutoresizingMaskIntoConstraints="NO" id="RfD-Md-MJJ">
+                                <rect key="frame" x="20" y="25" width="335" height="335"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="RfD-Md-MJJ" secondAttribute="height" multiplier="1:1" id="Ajf-gW-VyL"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lqX-ki-amq">
+                                <rect key="frame" x="16" y="433" width="224" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">A busy three months! 🍎	</string>
+                                <fontDescription key="fontDescription" name="GothamMedium" family="Gotham Medium" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="4" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jul 20 - Oct 20, 2017" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nfq-E5-4kn">
+                                <rect key="frame" x="18" y="374" width="340" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="340" id="dAk-6K-kyy"/>
+                                    <constraint firstAttribute="height" constant="55" id="mG5-t0-xCz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="19"/>
+                                <color key="textColor" red="0.84465640779999995" green="0.51457053419999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I was burgled, we went to Frankenmuth," lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ua-mB-m5Y">
+                                <rect key="frame" x="16" y="458" width="343" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GothamLight" family="Gotham Light" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="kayaked together, moved in to my new place," lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gez-wS-a1m">
+                                <rect key="frame" x="16" y="480" width="338" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GothamLight" family="Gotham Light" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="8" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="went to Chicago again and stayed with Deanna" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tEW-2j-oFU">
+                                <rect key="frame" x="16" y="502" width="350" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GothamLight" family="Gotham Light" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="7" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="celebrated my birthday at the Earle," lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xxq-rP-1vR">
+                                <rect key="frame" x="16" y="524" width="339" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GothamLight" family="Gotham Light" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="9" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="and enjoyed a nice day at the apple orchard." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kd6-ng-nat">
+                                <rect key="frame" x="16" y="568" width="330" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GothamLight" family="Gotham Light" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="6" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="made Edward mad at New Student Dinner," lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d0q-VB-47E">
+                                <rect key="frame" x="16" y="546" width="318" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GothamLight" family="Gotham Light" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="RfD-Md-MJJ" secondAttribute="trailing" constant="20" id="0c0-Tv-mMb"/>
+                            <constraint firstItem="nfq-E5-4kn" firstAttribute="centerX" secondItem="77s-vg-eaV" secondAttribute="centerX" id="9E7-fN-uLT"/>
+                            <constraint firstItem="RfD-Md-MJJ" firstAttribute="top" secondItem="77s-vg-eaV" secondAttribute="top" constant="25" id="Kug-wi-TuR"/>
+                            <constraint firstItem="RfD-Md-MJJ" firstAttribute="leading" secondItem="77s-vg-eaV" secondAttribute="leading" constant="20" id="QiW-ol-Vx9"/>
+                            <constraint firstItem="or3-a9-FJk" firstAttribute="top" secondItem="nfq-E5-4kn" secondAttribute="bottom" constant="238" id="hIv-ym-aZq"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="fly-fx-K6u"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.border" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="point" keyPath="speedVariance">
+                            <point key="value" x="5" y="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="animateAlpha" value="NO"/>
+                        <userDefinedRuntimeAttribute type="point" keyPath="speed">
+                            <point key="value" x="0.29999999999999999" y="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="string" keyPath="staticTags" value="1"/>
+                    </userDefinedRuntimeAttributes>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vvU-Oo-gdv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="308" y="796"/>
+        </scene>
+        <!--Walkthrough Page View Controller-->
+        <scene sceneID="4Dc-o5-a7U">
+            <objects>
+                <viewController storyboardIdentifier="page_3" id="OKa-Px-q7W" customClass="BWWalkthroughPageViewController" customModule="J_C" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7iW-S0-4BY"/>
+                        <viewControllerLayoutGuide type="bottom" id="usG-ej-o4P"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="FeM-rE-3iG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="futon" translatesAutoresizingMaskIntoConstraints="NO" id="ef7-bJ-e5U">
+                                <rect key="frame" x="20" y="25" width="335" height="335"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="ef7-bJ-e5U" secondAttribute="height" multiplier="1:1" id="h09-Tb-eAf"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A cozy winter 😍" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oqy-Xf-3zd">
+                                <rect key="frame" x="16" y="433" width="146" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GothamMedium" family="Gotham Medium" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="4" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Oct 20 - Jan 20, 2018" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gs5-sq-Www">
+                                <rect key="frame" x="18" y="374" width="340" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="TR0-9U-HX5"/>
+                                    <constraint firstAttribute="width" constant="340" id="Xj9-6A-oFO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="19"/>
+                                <color key="textColor" red="0.84465640779999995" green="0.51457053419999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="These were the three months where I felt like" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dVT-rl-2gk">
+                                <rect key="frame" x="16" y="458" width="343" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GothamLight" family="Gotham Light" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I really started to know you well. We became" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Isc-Xg-po3">
+                                <rect key="frame" x="16" y="480" width="333" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GothamLight" family="Gotham Light" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="8" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="much more vulnerable and open. We dressed" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9mY-bB-yDQ">
+                                <rect key="frame" x="16" y="502" width="340" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GothamLight" family="Gotham Light" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="7" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="up for Halloween, you met my parents, we" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fzw-Ig-qB7">
+                                <rect key="frame" x="16" y="524" width="339" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GothamLight" family="Gotham Light" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="9" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="twice, and I graduated and started working." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V5W-fI-5v7">
+                                <rect key="frame" x="16" y="568" width="323" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GothamLight" family="Gotham Light" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="6" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="went to the rugby formal, I got my car towed" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="azb-Qu-g8H">
+                                <rect key="frame" x="16" y="546" width="335" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GothamLight" family="Gotham Light" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ef7-bJ-e5U" firstAttribute="top" secondItem="FeM-rE-3iG" secondAttribute="top" constant="25" id="3mx-t8-Gtf"/>
+                            <constraint firstItem="gs5-sq-Www" firstAttribute="centerX" secondItem="FeM-rE-3iG" secondAttribute="centerX" id="J9o-JM-5DS"/>
+                            <constraint firstItem="ef7-bJ-e5U" firstAttribute="leading" secondItem="FeM-rE-3iG" secondAttribute="leading" constant="20" id="P5C-T7-prn"/>
+                            <constraint firstAttribute="trailing" secondItem="ef7-bJ-e5U" secondAttribute="trailing" constant="20" id="mkn-C1-PoJ"/>
+                            <constraint firstItem="usG-ej-o4P" firstAttribute="top" secondItem="gs5-sq-Www" secondAttribute="bottom" constant="238" id="uHC-Zw-biR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ATb-sa-xJ9"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.border" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="point" keyPath="speedVariance">
+                            <point key="value" x="5" y="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="animateAlpha" value="NO"/>
+                        <userDefinedRuntimeAttribute type="point" keyPath="speed">
+                            <point key="value" x="0.29999999999999999" y="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="string" keyPath="staticTags" value="1"/>
+                    </userDefinedRuntimeAttributes>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v78-AB-GdS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="940" y="796"/>
+        </scene>
+        <!--Walkthrough Page View Controller-->
+        <scene sceneID="eeV-gO-VLd">
+            <objects>
+                <viewController storyboardIdentifier="page_4" id="v8t-0D-ktS" customClass="BWWalkthroughPageViewController" customModule="J_C" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ulZ-c3-trv"/>
+                        <viewControllerLayoutGuide type="bottom" id="zHM-1u-nx4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iN4-Te-7nH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arb" translatesAutoresizingMaskIntoConstraints="NO" id="Be0-ws-had">
+                                <rect key="frame" x="20" y="25" width="335" height="335"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Be0-ws-had" secondAttribute="height" multiplier="1:1" id="lPj-ww-9Yp"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A year of good food 🍱🍛🍦🍗" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dXB-ja-mE7">
+                                <rect key="frame" x="16" y="433" width="268" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GothamMedium" family="Gotham Medium" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="4" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jan 20 - Apr 20, 2018" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oXb-jh-emo">
+                                <rect key="frame" x="18" y="374" width="340" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="Dq7-PA-oBY"/>
+                                    <constraint firstAttribute="width" constant="340" id="psY-cc-AyJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="19"/>
+                                <color key="textColor" red="0.84465640779999995" green="0.51457053419999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="We went to NAIAS, celebrated your bday" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D6B-yq-Pe8">
+                                <rect key="frame" x="16" y="458" width="343" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GothamLight" family="Gotham Light" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="while you were sick :( and I went to China for" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fpp-uf-i9z">
+                                <rect key="frame" x="16" y="480" width="333" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GothamLight" family="Gotham Light" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="8" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="a month. But more than that, these 3 months," lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LdY-jG-9q9">
+                                <rect key="frame" x="16" y="502" width="340" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GothamLight" family="Gotham Light" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="7" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="we ate soooo much good food: from Jolly " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kIu-Um-H9k">
+                                <rect key="frame" x="16" y="524" width="339" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GothamLight" family="Gotham Light" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="9" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="blessed to spend a wonderful year with you." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VDt-iU-8xJ">
+                                <rect key="frame" x="16" y="568" width="327" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GothamLight" family="Gotham Light" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="6" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pumpkin, to Aijishin, to Shangri La. I was so" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PDj-4w-33u">
+                                <rect key="frame" x="16" y="546" width="320" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GothamLight" family="Gotham Light" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Be0-ws-had" firstAttribute="leading" secondItem="iN4-Te-7nH" secondAttribute="leading" constant="20" id="HvH-ne-Ec6"/>
+                            <constraint firstItem="oXb-jh-emo" firstAttribute="centerX" secondItem="iN4-Te-7nH" secondAttribute="centerX" id="RNw-ui-KCO"/>
+                            <constraint firstItem="Be0-ws-had" firstAttribute="top" secondItem="iN4-Te-7nH" secondAttribute="top" constant="25" id="TGt-mn-fko"/>
+                            <constraint firstAttribute="trailing" secondItem="Be0-ws-had" secondAttribute="trailing" constant="20" id="cPF-pl-hTu"/>
+                            <constraint firstItem="zHM-1u-nx4" firstAttribute="top" secondItem="oXb-jh-emo" secondAttribute="bottom" constant="238" id="hDd-Go-FTY"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="3Ol-Ai-63S"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.border" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="point" keyPath="speedVariance">
+                            <point key="value" x="5" y="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="animateAlpha" value="NO"/>
+                        <userDefinedRuntimeAttribute type="point" keyPath="speed">
+                            <point key="value" x="0.29999999999999999" y="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="string" keyPath="staticTags" value="1"/>
+                    </userDefinedRuntimeAttributes>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UjY-4B-ZZJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1569" y="796"/>
+        </scene>
+        <!--Walkthrough Page View Controller-->
+        <scene sceneID="LMx-v1-09B">
+            <objects>
+                <viewController storyboardIdentifier="page_5" id="pkc-Xy-4iw" customClass="BWWalkthroughPageViewController" customModule="J_C" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="OGa-WZ-mDP"/>
+                        <viewControllerLayoutGuide type="bottom" id="7ib-WT-uGK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aW3-wN-Vmd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="baseball" translatesAutoresizingMaskIntoConstraints="NO" id="jMJ-sf-ECm">
+                                <rect key="frame" x="20" y="25" width="335" height="335"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="jMJ-sf-ECm" secondAttribute="height" multiplier="1:1" id="yzS-mc-Yqk"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Living new experiences 🎣⚾🎤" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mOb-6Y-y0T">
+                                <rect key="frame" x="16" y="433" width="272" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GothamMedium" family="Gotham Medium" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="4" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Apr 20 - Jul 20, 2018" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6pc-WC-NoA">
+                                <rect key="frame" x="18" y="374" width="340" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="2WT-lX-gkW"/>
+                                    <constraint firstAttribute="width" constant="340" id="aLs-d1-85H"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="19"/>
+                                <color key="textColor" red="0.84465640779999995" green="0.51457053419999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You visited me at work for a picnic, I" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RZj-gN-gqT">
+                                <rect key="frame" x="16" y="458" width="343" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GothamLight" family="Gotham Light" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="came to Atlanta to visit your family," lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KgF-Kf-M2y">
+                                <rect key="frame" x="16" y="480" width="264" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GothamLight" family="Gotham Light" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="8" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="we went bow-fishing, attended a Kendrick" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tkD-yt-vKS">
+                                <rect key="frame" x="16" y="502" width="340" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GothamLight" family="Gotham Light" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="7" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lamar concert, and went to a Tigers" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LIK-uV-A4S">
+                                <rect key="frame" x="16" y="524" width="339" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GothamLight" family="Gotham Light" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="9" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="but we were closer than ever still. :)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JCe-Vd-HI3">
+                                <rect key="frame" x="16" y="568" width="263" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GothamLight" family="Gotham Light" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="6" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="game. You spent a month and a half in GA" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sui-BP-pQc">
+                                <rect key="frame" x="16" y="546" width="314" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GothamLight" family="Gotham Light" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="7ib-WT-uGK" firstAttribute="top" secondItem="6pc-WC-NoA" secondAttribute="bottom" constant="238" id="KmO-so-dgf"/>
+                            <constraint firstItem="6pc-WC-NoA" firstAttribute="centerX" secondItem="aW3-wN-Vmd" secondAttribute="centerX" id="V3b-qI-xAP"/>
+                            <constraint firstAttribute="trailing" secondItem="jMJ-sf-ECm" secondAttribute="trailing" constant="20" id="gwk-tm-B5c"/>
+                            <constraint firstItem="jMJ-sf-ECm" firstAttribute="top" secondItem="aW3-wN-Vmd" secondAttribute="top" constant="25" id="meR-Bx-FF2"/>
+                            <constraint firstItem="jMJ-sf-ECm" firstAttribute="leading" secondItem="aW3-wN-Vmd" secondAttribute="leading" constant="20" id="uOo-Vf-PgQ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="jeV-TT-Ise"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.border" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="point" keyPath="speedVariance">
+                            <point key="value" x="5" y="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="animateAlpha" value="NO"/>
+                        <userDefinedRuntimeAttribute type="point" keyPath="speed">
+                            <point key="value" x="0.29999999999999999" y="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="string" keyPath="staticTags" value="1"/>
+                    </userDefinedRuntimeAttributes>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2Ro-gb-76s" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2196" y="796"/>
+        </scene>
+        <!--Walkthrough Page View Controller-->
+        <scene sceneID="sMo-Ne-Kfg">
+            <objects>
+                <viewController storyboardIdentifier="page_6" id="vjt-c4-4oX" customClass="BWWalkthroughPageViewController" customModule="J_C" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eOu-J0-U9k"/>
+                        <viewControllerLayoutGuide type="bottom" id="ep8-Kc-yzw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yKH-ZQ-tqb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kiss2" translatesAutoresizingMaskIntoConstraints="NO" id="KGa-Ug-3yq">
+                                <rect key="frame" x="20" y="25" width="335" height="335"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="KGa-Ug-3yq" secondAttribute="height" multiplier="1:1" id="wQ6-Gc-6rC"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Thank you for 15 amazing months! 💘" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EAf-HA-om5">
+                                <rect key="frame" x="16" y="433" width="320" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GothamMedium" family="Gotham Medium" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="4" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I Love You " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Vv-w6-IOK">
+                                <rect key="frame" x="18" y="374" width="340" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="3nf-38-wAI"/>
+                                    <constraint firstAttribute="width" constant="340" id="lq2-Io-uRY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="19"/>
+                                <color key="textColor" red="0.84465640779999995" green="0.51457053419999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You've been such a blessing to me in my life." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hAX-uD-4xR">
+                                <rect key="frame" x="16" y="458" width="343" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GothamLight" family="Gotham Light" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You always push me to grow where I suck. Your" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZjA-OU-S79">
+                                <rect key="frame" x="16" y="480" width="356" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GothamLight" family="Gotham Light" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="8" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="personality is mature, but cute and fun loving," lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TOI-Hm-dwe">
+                                <rect key="frame" x="16" y="502" width="339" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GothamLight" family="Gotham Light" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="7" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="which makes me so make me so happy just to" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3SG-f9-15y">
+                                <rect key="frame" x="16" y="524" width="341" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GothamLight" family="Gotham Light" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="9" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="can never get enough, so stick around a while :)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sag-D2-Kwg">
+                                <rect key="frame" x="16" y="568" width="353" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GothamLight" family="Gotham Light" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="6" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="be near you. And your beauty is mind-blowing, I" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hEs-t9-DMJ">
+                                <rect key="frame" x="16" y="546" width="356" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GothamLight" family="Gotham Light" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="KGa-Ug-3yq" firstAttribute="leading" secondItem="yKH-ZQ-tqb" secondAttribute="leading" constant="20" id="4Ov-M9-Fzw"/>
+                            <constraint firstItem="ep8-Kc-yzw" firstAttribute="top" secondItem="1Vv-w6-IOK" secondAttribute="bottom" constant="238" id="N3B-Nr-5IQ"/>
+                            <constraint firstItem="KGa-Ug-3yq" firstAttribute="top" secondItem="yKH-ZQ-tqb" secondAttribute="top" constant="25" id="SJL-UE-p24"/>
+                            <constraint firstAttribute="trailing" secondItem="KGa-Ug-3yq" secondAttribute="trailing" constant="20" id="Ytm-y0-xqg"/>
+                            <constraint firstItem="1Vv-w6-IOK" firstAttribute="centerX" secondItem="yKH-ZQ-tqb" secondAttribute="centerX" id="ljx-ay-7gW"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Q1f-2Z-JR0"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.border" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="point" keyPath="speedVariance">
+                            <point key="value" x="5" y="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="animateAlpha" value="NO"/>
+                        <userDefinedRuntimeAttribute type="point" keyPath="speed">
+                            <point key="value" x="0.29999999999999999" y="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="string" keyPath="staticTags" value="1"/>
+                    </userDefinedRuntimeAttributes>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7n9-9n-ycv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2823" y="796"/>
         </scene>
     </scenes>
     <resources>
+        <image name="arb" width="1932" height="1932"/>
         <image name="background" width="1242" height="2208"/>
         <image name="baseball" width="1080" height="1080"/>
+        <image name="cfw" width="720" height="720"/>
         <image name="chinatown2" width="1000" height="1334"/>
-        <image name="dog" width="1440" height="1920"/>
-        <image name="tiger" width="1000" height="1228"/>
+        <image name="futon" width="1536" height="1536"/>
+        <image name="kayak1" width="1932" height="1932"/>
+        <image name="kiss2" width="1932" height="1932"/>
     </resources>
 </document>

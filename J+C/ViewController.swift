@@ -136,7 +136,7 @@ class ViewController: FormViewController, CLLocationManagerDelegate, BWWalkthrou
             }
             <<< ActionSheetRow<String>() {
                 $0.baseCell.backgroundColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 0.6)
-                $0.title = "Whats the total number of ice cream shops in MI that we've visited?"
+                $0.title = "How many different ice cream shops in Ann Arbor did we visit?"
                 $0.options = ["1", "2", "3", "4", "5", "6", "7", "8"]
                 $0.value = UserDefaults.standard.string(forKey: "q16")
                 $0.tag = "t16"
@@ -154,9 +154,6 @@ class ViewController: FormViewController, CLLocationManagerDelegate, BWWalkthrou
                 $0.value = UserDefaults.standard.string(forKey: "q8")
                 $0.tag = "t8"
             }
-    }
-    
-    override func viewWillLayoutSubviews() {
         AppUtility.lockOrientation(.landscape, andRotateTo: .landscapeLeft)
     }
     
@@ -241,7 +238,7 @@ class ViewController: FormViewController, CLLocationManagerDelegate, BWWalkthrou
         UserDefaults.standard.synchronize()
 
         var boolDict = [1:false, 2:false, 3:false, 4:false, 5:false, 6:false, 7:false, 8:false, 9:false, 10:false, 11:false, 12:false, 13:false, 14:false, 15:false, 16:false, 17:false]
-        let hintDict: [Int:String] = [8:"YOU DON'T KNOW ___!", 9:"You might have to scroll way back into our fb messages for this one", 10:"Across the street from Fred's if I remember correctly", 11:"Halloween", 13:"It's located in Chicago Chinatown", 14:"Look at the pictures to find which brand of car it is", 15:"Don't forget the shop we used a gift card at"]
+        let hintDict: [Int:String] = [8:"YOU DON'T KNOW ___!", 9:"You might have to scroll way back into our fb messages for this one", 10:"Across the street from Fred's if I remember correctly", 11:"Halloween", 13:"It's located in Chicago Chinatown", 14:"Look at the pictures to find which brand of car it is", 15:"Don't forget the shop we used a gift card at, and the one we went to during the car show"]
         
         if(v1! >= Date(timeIntervalSince1970: TimeInterval(1492646400)) && v1! <= Date(timeIntervalSince1970: TimeInterval(1492732799))){
             boolDict[1] = true
@@ -306,6 +303,7 @@ class ViewController: FormViewController, CLLocationManagerDelegate, BWWalkthrou
             let alert = UIAlertController(title: "Ayyyy LMAO!", message: "Good job Caron! You got them all right!\n\n\n\n\n\n\n\n\n\n\n\n\n", preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: "Ok 😄", style: .default, handler: { (action) -> Void in
                 AppUtility.lockOrientation(.all)
+                AppUtility.lockOrientation(.portrait, andRotateTo: .portrait)
                 Walkthrough(ViewController: self, VCDelegate: self as! BWWalkthroughViewControllerDelegate)
 
             }))
